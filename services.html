@@ -89,16 +89,16 @@
   color: #f6f5f5;
   background: #070d59;
 }
-.accordion .card-header:after {
+.gg:after {
     font-family: 'FontAwesome';  
     content: "\f068";
     float: right; 
 }
-.accordion .card-header.collapsed:after {
+.gg.collapsed:after {
     /* symbol for "collapsed" panels */
     content: "\f067"; 
 }
-.accordion .card-header {
+.card-header {
   cursor: pointer;
 }
 .title-text{
@@ -154,14 +154,20 @@
 </div>
 <div class="section-2">
     <div class="container py-5">
-      <div id="accordion" class="accordion">
-        <div class="card mb-0">
-            <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
-              <span class="lob-text dark-text title-text"><b>Complete Banking Solution</b></span>
-            </div>
-            <div id="collapseOne" class="card-body collapse show" data-parent="#accordion" >
-              <div class="card-body">
+      <div id="accordion">
+
+        <div class="card">
+
+          <div class="" id="headingOne">
             
+              <div class="card-header gg" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <span class="lob-text dark-text title-text"><b>Complete Banking Solution</b></span>
+              </div>
+            
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
               <p class="heading-text">After Nationalization of the few major banks, the Indian banking Industry was subject to a number of reforms with an aim to boost the economy, upliftment of poor and rural with an objective to serve the masses by giving more freedom and controls to boost the economy. The Indian Banking Industry has become complex in nature after shifting from class banking to mass banking. To boost the economy the RBI / Govt. has come up with the concept of  ‘Priority Sector’ lending, the major components are:</p>
               <ul>
                   <li>Micro Small and Medium Enterprises</li>
@@ -173,89 +179,128 @@
               </ul>
               <p>Further to meet customers’ requirements for various products and also banking industry is under pressure to maintain its survival by maintaining profit margins in the competitive environment, that is by venturing into various kinds of other by-products.</p>
               <p>Secondly, the large-scale retirement of the old/ experienced staff has further worsened the situation. Due to this customer is facing at lot of harassment at various levels as their problems/complains remained unattended.</p>
-              <p>We offer a complete solution to all type of complains related to all type of products and services handled by the banks.</p>  
+              <p>We offer a complete solution to all type of complains related to all type of products and services handled by the banks.</p>   
             </div>
-            </div>
+          </div>
+        </div>
 
 
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                  <span class="lob-text dark-text title-text"><b>Industrial Surveys</b></span>
-            </div>
-            <div id="collapseTwo" class="card-body collapse" data-parent="#accordion" >
-              <div class="card-body">
+
+        <div class="card">
+          <div class="" id="headingTwo">
+            
+              <div class="card-header gg collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span class="lob-text dark-text title-text"><b>Industrial Surveys</b></span>
+              </div>
+            
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
               <p>The proprietor has got more than three decades of experience in the banking segment. We provide complete solution under one roof for industrial surveys such as opinion, analysis of Indian industry, Capital-Market and economic reforms. The Survey includes analysis of demand-supply gap, analysis of cost structures & returns, the competition offered by the market and financial performance of a similar type of industry. The capability of the venture to serve the debts. Out team provides surveys of various sectors of industries, ‘BOLT’ projects and competition involved, Thus enabling the entrepreneur to make appropriate decisions towards investments.</p>
             </div>
-            </div>
-
-            
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                  <span class="lob-text dark-text title-text"><b>Liasoning with banks and Government Institutions</b></span>
-            </div>
-            <div id="collapseThree" class="collapse" data-parent="#accordion" >
-                <div class="card-body"><p>The team members have got diversified experience in various segments of economy. They have got strong liason with bank and government department
-                  for liasoning, various government approvals, approval of projects, release of grants and subsidies.</p>
-                </div>
-            </div>
-
-
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-              <span class="lob-text dark-text title-text"><b>Preparation of Models, Project-Reports and CMA data</b></span>
-            </div>
-            <div id="collapseFour" class="collapse" data-parent="#accordion" >
-                <div class="card-body">
-                  <p>We provide complete solution for preparation of models, slides, presentations, complete project reports,CMA data and various other bank
-                reports/data required by bank during day-to-day operations.</p>
-                </div>
-            </div>
-
-            
-
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-              <span class="lob-text dark-text title-text"><b>Settle score for bank financing specialised in large, MSME and service industries</b></span>
-            </div>
-            <div id="collapseFive" class="collapse" data-parent="#accordion" >
-                <div class="card-body">
-                  <p>We provide consultancy services to improve the credit score/rating of the promoters and industry for reduction in rate-of-interest and to
-                    improve the creditability. As already highlighted that proprietor has got two and half decade experience in large MSME and service industry.</p>
-                </div>
-            </div>
-
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-              <span class="lob-text dark-text title-text"><b>Handling and completion of bank financial audit on job work basis</b></span>
-            </div>
-            <div id="collapseSix" class="collapse" data-parent="#accordion" >
-                <div class="card-body">
-                  <p>We provide complete solution in handling banks financial and regular audit on job-work basis and to complete the assignment on time.</p>
-                </div>
-            </div>
-
-
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
-              <span class="lob-text dark-text title-text"><b>ISO Certification</b></span>
-            </div>
-            <div id="collapseSeven" class="collapse" data-parent="#accordion" >
-                <div class="card-body">
-                  <p>The team provides complete solution in obtaining ISO certification.</p>
-                </div>
-            </div>
-
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
-              <span class="lob-text dark-text title-text"><b>GST and its solutions</b></span>
-            </div>
-            <div id="collapseEight" class="collapse" data-parent="#accordion" >
-                <div class="card-body">
-                  <p>With the change in government policies and complexities of text structure/GST we provide complete solution in this field also.</p>
-                </div>
-            </div>
-
-
+          </div>
         </div>
-    </div>
-        
-        
+
+        <div class="card">
+          <div class="" id="headingThree">
+            
+              <div class="card-header gg collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span class="lob-text dark-text title-text"><b>Liasoning with banks and Government Institutions</b></span>
+              </div>
+            
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <p>The team members have got diversified experience in various segments of economy. They have got strong liason with bank and government department
+                for liasoning, various government approvals, approval of projects, release of grants and subsidies.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="" id="headingFour">
+            
+              <div class="card-header gg collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <span class="lob-text dark-text title-text"><b>Preparation of Models, Project-Reports and CMA data</b></span>
+              </div>
+            
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              <p>We provide complete solution for preparation of models, slides, presentations, complete project reports,CMA data and various other bank
+                reports/data required by bank during day-to-day operations.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="" id="heading5">
+            
+              <div class="card-header gg collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                <span class="lob-text dark-text title-text"><b>Settle score for bank financing specialised in large, MSME and service industries</b></span>
+              </div>
+            
+          </div>
+          <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+            <div class="card-body">
+              <p>We provide consultancy services to improve the credit score/rating of the promoters and industry for reduction in rate-of-interest and to
+                improve the creditability. As already highlighted that proprietor has got two and half decade experience in large MSME and service industry.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="" id="heading6">
+            
+              <div class="card-header gg collapsed" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                <span class="lob-text dark-text title-text"><b>Handling and completion of bank financial audit on job work basis</b></span>
+              </div>
+            
+          </div>
+          <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
+            <div class="card-body">
+              <p>We provide complete solution in handling banks financial and regular audit on job-work basis and to complete the assignment on time.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="" id="heading7">
+            
+              <div class="card-header gg collapsed" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                <span class="lob-text dark-text title-text"><b>ISO Certification</b></span>
+              </div>
+            
+          </div>
+          <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion">
+            <div class="card-body">
+              <p>The team provides complete solution in obtaining ISO certification.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="" id="heading8">
+            
+              <div class="card-header gg collapsed" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                <span class="lob-text dark-text title-text"><b>GST and its solutions</b></span>
+              </div>
+            
+          </div>
+          <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordion">
+            <div class="card-body">
+              <p>With the change in government policies and complexities of text structure/GST we provide complete solution in this field also.</p>
+              </div>
+          </div>
+        </div>
 
 
+        
+      </div>
     </div>
+
+
+
 </div>
 
 
@@ -277,6 +322,7 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
+
 
 </script>
 
@@ -317,6 +363,7 @@ function scrollFunction() {
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src='https://code.jquery.com/jquery-3.1.0.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
@@ -324,5 +371,14 @@ function scrollFunction() {
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
+    <script>
+      $('.collapse').on('shown.bs.collapse', function(e) {
+        var $card = $(this).closest('.card');
+        $('html,body').animate({
+          scrollTop: $card.offset().top
+          
+        }, 500);
+      });
+    </script>
   </body>
 </html>
