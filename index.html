@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" 
+      type="image/png" 
+      href="assets/img/100-100.png">
     <title>Shree Ganpati Consultants</title>
     <style>
     .lob-text{
@@ -95,6 +98,14 @@
   color: #f6f5f5;
   background: #070d59;
 }
+.email-link{
+  color: #f6f5f5 ;
+  text-decoration: none;
+}
+.email-link:link{
+  color: #f6f5f5 ;
+  text-decoration: none;
+}
     </style>
   </head>
   <body>
@@ -103,7 +114,7 @@
   <!-- Fixed navbar -->
   <nav class="navbar navbar-expand-md navbar-dark my-nav">
     <div class='container'>
-    <a class="navbar-brand" href="index.html">
+    <a class="navbar-brand" href="/">
         <img src="assets/img/100-100.png" alt="logo" width='100px'>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -112,7 +123,7 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active mr-2">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item mr-2">
           <a class="nav-link" href="services.html">Services Offered</a>
@@ -137,7 +148,7 @@
     <h4 class='lob-text'>Consulting for your Banking needs</h4>
     <h1 class='lob-text'>Shree Ganpati Consultants</h1>
     <p>We provide consulting services for Small, Medium and Large Industries for Banking, ISO Certifications, Insurance, Housing Loans, LAP and various other  Government incentive schemes.</p>
-    <button class='btn my-btn btn-lg'>Contact Us</button>
+    <button class='btn my-btn btn-lg' onclick="window.location.href='contact.html'">Contact Us</button>
   </div>
 </div>
 <div class="container section-1 py-3 my-3">
@@ -195,7 +206,7 @@
                     industrial segments.We provide complete solution under one roof for industrial survey such as opinion, analysis of Indian industry, Capital-Market 
                     and economic reforms. Out team provides survey of various sectors of industries, bold projects and competition involved, Thus enabling 
                     the entrepreneur to make appropriate decisions towards investments.</p>
-                    <button class='btn my-btn btn-lg'>Contact Us</button>
+                    <button class='btn my-btn btn-lg' onclick="window.location.href='contact.html'">Contact Us</button>
 
                 </div>
                 
@@ -213,7 +224,7 @@
                     <h2 class="lob-text dark-text">Liasoning with banks and Government Institutions</h2>
                     <p class="heading-text">The team members have got diversified experience in various segments of economy. They have got strong liaison with bank and government department 
                         for liaisoning, various government approvals, approval of projects, release of grants and subsidies.</p>
-                    <button class='btn my-btn btn-lg'>Contact Us</button>
+                    <button class='btn my-btn btn-lg' onclick="window.location.href='contact.html'">Contact Us</button>
 
                 </div>
                 
@@ -229,7 +240,7 @@
   top: 0,
   left: 0,
   behavior: 'smooth'
-});" id="myBtn" title="Go to top"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></button>
+});" id="myBtn" title="Go to top"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
 <script>
   var mybutton = document.getElementById("myBtn");
 
@@ -267,7 +278,7 @@ function scrollFunction() {
         <h5><b>Contact</b></h5>
         <ul class="list-unstyled text-small">
           <li>Phone – +91 8130722256</li>
-          <li>Email – shreeganpaticonsutants@gmail.com</li>
+          <li>Email – <a class="email-link" href='mailto:shreeganpaticonsutants@gmail.com'>shreeganpaticonsutants@gmail.com</a></li>
           
         </ul>
       </div>
