@@ -1,0 +1,98 @@
+.lob-text {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+	background-color: #f6f5f5;
+}
+.my-nav {
+	background-color: #1f3c88;
+}
+.jumbotro {
+	color: #f6f5f5;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/img/bank.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 50vh;
+}
+.hero-text {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #f6f5f5;
+	text-shadow: 1px 1px black;
+	margin-left: unset;
+}
+.my-btn {
+	background-color: #ee6f57;
+	color: #f6f5f5;
+	border-radius: 4px;
+}
+.my-btn:hover {
+	background-color: #ee6f57;
+	color: #f6f5f5;
+}
+.section-1 {
+	text-align: center;
+}
+.heading-text {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.white-text {
+	color: #f6f5f5;
+}
+.dark-text {
+	color: #070d59;
+}
+.footer {
+	text-align: center;
+	background-color: #070d59;
+	color: #f6f5f5;
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #ee6f57;
+	color: #f6f5f5;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+#myBtn:hover {
+	background-color: #555;
+}
+::selection {
+	color: #f6f5f5;
+	background: #070d59;
+}
+.gg:after {
+	font-family: 'FontAwesome';
+	content: "\f068";
+	float: right;
+}
+.gg.collapsed:after {
+	/* symbol for "collapsed" panels */
+	content: "\f067";
+}
+.card-header {
+	cursor: pointer;
+}
+.title-text {
+	font-size: large;
+}
+.email-link {
+	color: #f6f5f5;
+	text-decoration: none;
+}
+.email-link:link {
+	color: #f6f5f5;
+	text-decoration: none;
+}
